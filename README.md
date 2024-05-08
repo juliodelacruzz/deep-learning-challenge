@@ -13,22 +13,22 @@ This means that all the other columns would be our features.
 ![targetANDfeature](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/d65c6a0d-3c43-45cc-ba5b-05e83e54aefd)
 
 However, before we do this, we must drop any unnecessary columns from our dataset that will not provide value to our machine model. We must drop columns 'EIN' and 'Name' because these columns are neither targets or features. They are just ID's for the applicants, which have no value for our model.
-
+![droppedColumns](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/7ea9b529-2f40-43e0-a451-c5fb91dc3af4)
 
 Compiling, Training, and Evaluating the Model
 Originally, there were two layers. The first layer had 80 nodes and the second had 30. The activation functions that were used was relu for the hidden layers and sigmoid for the output layer.
 Using these, the original accuracy of the model was 0.7295 or 72.95%. This was also ran with 100 epochs.
-
+![originalMODEL](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/b90d201c-29d2-448f-acd8-8899ac456ed9)
 
 For the first optimization attempt, I tried adding another layer of 15 nodes with the same activation. I also used the same amount of epochs. However this had no apparent change in the accuracy as I got around 72% again.
-
+![optimized1](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/b709caf6-fb3a-4eab-aaea-0dd85641be42)
 
 For the second optimization attempt, I switched up the activation to leaky relu. Running the same amount of epochs, this improved my accuracy to 73.15%. 
-
+![optimized2](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/87949c22-a1d3-4d35-b140-fbe9af140f9d)
 
 
 For the third attempt, I tried adding a fourth layer and increased the epochs to 150. This was not able to increase my accuracy. The accuracy obtained was 72.86%
-
+![optimized3](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/32e9c2cb-9c83-45a6-aa5a-14042c0bc1b2)
 
 
 **SUMMARY**
