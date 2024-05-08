@@ -10,7 +10,7 @@ The purpose of this challenge was to create a machine learning algorithm that wo
 Data Preprocessing
 The target would be if the applicant is successful.
 This means that all the other columns would be our features.
-
+![targetANDfeature](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/d65c6a0d-3c43-45cc-ba5b-05e83e54aefd)
 
 However, before we do this, we must drop any unnecessary columns from our dataset that will not provide value to our machine model. We must drop columns 'EIN' and 'Name' because these columns are neither targets or features. They are just ID's for the applicants, which have no value for our model.
 
