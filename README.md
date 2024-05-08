@@ -19,16 +19,20 @@ Compiling, Training, and Evaluating the Model
 Originally, there were two layers. The first layer had 80 nodes and the second had 30. The activation functions that were used was relu for the hidden layers and sigmoid for the output layer.
 Using these, the original accuracy of the model was 0.7295 or 72.95%. This was also ran with 100 epochs.
 ![originalMODEL](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/b90d201c-29d2-448f-acd8-8899ac456ed9)
+![ogACC](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/a21a2d60-a6ff-411a-8ff7-f4eb955ae0f3)
 
 For the first optimization attempt, I tried adding another layer of 15 nodes with the same activation. I also used the same amount of epochs. However this had no apparent change in the accuracy as I got around 72% again.
 ![optimized1](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/b709caf6-fb3a-4eab-aaea-0dd85641be42)
+![1optimizedACC](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/111b7bd0-38a6-47d2-a1a1-ca14b46adf87)
 
 For the second optimization attempt, I switched up the activation to leaky relu. Running the same amount of epochs, this improved my accuracy to 73.15%. 
 ![optimized2](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/87949c22-a1d3-4d35-b140-fbe9af140f9d)
+![2optimizedACC](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/87590f2c-2afc-4678-8bcb-635a23693d36)
 
 
 For the third attempt, I tried adding a fourth layer and increased the epochs to 150. This was not able to increase my accuracy. The accuracy obtained was 72.86%
 ![optimized3](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/32e9c2cb-9c83-45a6-aa5a-14042c0bc1b2)
+![3optimizedACC](https://github.com/juliodelacruzz/deep-learning-challenge/assets/31105353/5d74d782-1121-4b50-95aa-ae4f25f1d800)
 
 
 **SUMMARY**
